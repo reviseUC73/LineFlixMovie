@@ -3,4 +3,69 @@
    uuid = "2AA5F504-A859-481E-B65E-E93C39E2D062"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init?(coder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472 - 7f2dd3cacfd406ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineFlixMovie.CollectionViewTableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LineFlixMovie.CollectionViewTableViewCell&gt;"
+                  moduleName = "LineFlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472 - a4e6f664b410c7f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineFlixMovie.CollectionViewTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LineFlixMovie.CollectionViewTableViewCell&gt;"
+                  moduleName = "LineFlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472 - a4e6f664b410c3d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineFlixMovie.CollectionViewTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LineFlixMovie.CollectionViewTableViewCell&gt;"
+                  moduleName = "LineFlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

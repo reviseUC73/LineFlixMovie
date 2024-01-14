@@ -16,6 +16,7 @@
 		42AC0D562B531DA300B51FC9 /* UpcommingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC0D552B531DA300B51FC9 /* UpcommingViewController.swift */; };
 		42AC0D582B531DED00B51FC9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC0D572B531DED00B51FC9 /* SearchViewController.swift */; };
 		42AC0D5A2B531E0300B51FC9 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC0D592B531E0300B51FC9 /* DownloadsViewController.swift */; };
+		42AC0D5C2B53EADE00B51FC9 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC0D5B2B53EADE00B51FC9 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		42AC0D552B531DA300B51FC9 /* UpcommingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingViewController.swift; sourceTree = "<group>"; };
 		42AC0D572B531DED00B51FC9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		42AC0D592B531E0300B51FC9 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		42AC0D5B2B53EADE00B51FC9 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		42AC0D502B531D0100B51FC9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				42AC0D5B2B53EADE00B51FC9 /* CollectionViewTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				42AC0D582B531DED00B51FC9 /* SearchViewController.swift in Sources */,
 				42AC0D402B53143700B51FC9 /* MainTabBarViewController.swift in Sources */,
+				42AC0D5C2B53EADE00B51FC9 /* CollectionViewTableViewCell.swift in Sources */,
 				42AC0D5A2B531E0300B51FC9 /* DownloadsViewController.swift in Sources */,
 				42AC0D3C2B53143700B51FC9 /* AppDelegate.swift in Sources */,
 				42AC0D562B531DA300B51FC9 /* UpcommingViewController.swift in Sources */,
