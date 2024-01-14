@@ -28,6 +28,5 @@ To access TMDB's content, a valid API key is required. Here's a brief guide:
 1. **Obtain API Key**: Sign up or log in at [TMDB's website](https://www.themoviedb.org/settings/api) and request an API key under the API section in account settings.
 2. **Configure in App**: In your LineFlixMovie project, locate the file where the API key is referenced and replace the placeholder with your obtained TMDB API key:
    ```swift
-   static let API_KEY = "your_api_key_here"
-```
+   static let API_KEY = "your_api_key_here" 
 
