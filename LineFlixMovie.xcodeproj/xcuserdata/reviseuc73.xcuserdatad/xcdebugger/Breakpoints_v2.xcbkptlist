@@ -14,55 +14,101 @@
             filePath = "LineFlixMovie/Views/CollectionViewTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "init?(coder:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64C63587-97F8-41F1-BB8B-A272A8D23FD1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineFlixMovie/Views/HeroHearderUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "HeroHearderUIView"
+            landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472 - 7f2dd3cacfd406ae"
+                  uuid = "64C63587-97F8-41F1-BB8B-A272A8D23FD1 - d1d88c7559ae4177"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LineFlixMovie.CollectionViewTableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LineFlixMovie.CollectionViewTableViewCell&gt;"
+                  symbolName = "LineFlixMovie.HeroHearderUIView.addGradient() -&gt; ()"
                   moduleName = "LineFlixMovie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/HeroHearderUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "64C63587-97F8-41F1-BB8B-A272A8D23FD1 - de0fc9261bbea0bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineFlixMovie.HeroHearderUIView.__allocating_init(frame: __C.CGRect) -&gt; LineFlixMovie.HeroHearderUIView"
+                  moduleName = "LineFlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/HeroHearderUIView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "32">
                </Location>
                <Location
-                  uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472 - a4e6f664b410c7f0"
+                  uuid = "64C63587-97F8-41F1-BB8B-A272A8D23FD1 - 601d6ec39f409dda"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LineFlixMovie.CollectionViewTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LineFlixMovie.CollectionViewTableViewCell&gt;"
+                  symbolName = "LineFlixMovie.HeroHearderUIView.init(frame: __C.CGRect) -&gt; LineFlixMovie.HeroHearderUIView"
                   moduleName = "LineFlixMovie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/HeroHearderUIView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "68">
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
                </Location>
                <Location
-                  uuid = "DBAC99C5-8F92-4C23-9AE8-AFB576FA7472 - a4e6f664b410c3d2"
+                  uuid = "64C63587-97F8-41F1-BB8B-A272A8D23FD1 - 601d6ec39f409f88"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LineFlixMovie.CollectionViewTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LineFlixMovie.CollectionViewTableViewCell&gt;"
+                  symbolName = "LineFlixMovie.HeroHearderUIView.init(frame: __C.CGRect) -&gt; LineFlixMovie.HeroHearderUIView"
                   moduleName = "LineFlixMovie"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/CollectionViewTableViewCell.swift"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/HeroHearderUIView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "124">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "64C63587-97F8-41F1-BB8B-A272A8D23FD1 - 601d6ec39f409283"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineFlixMovie.HeroHearderUIView.init(frame: __C.CGRect) -&gt; LineFlixMovie.HeroHearderUIView"
+                  moduleName = "LineFlixMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reviseuc73/Desktop/swift/Project/LineFlixMovie/LineFlixMovie/Views/HeroHearderUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>

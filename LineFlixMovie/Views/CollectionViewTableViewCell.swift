@@ -9,8 +9,6 @@ import UIKit
 
 // something that keep in section
 class CollectionViewTableViewCell: UITableViewCell {
-   
-    
     //    static let
     static let identifiner  = "CollectionViewTableViewCell" // register name
     
@@ -24,10 +22,11 @@ class CollectionViewTableViewCell: UITableViewCell {
         
         // each collect item each row it has scroll direction is ->
         layout.scrollDirection = .horizontal
+        
+        // apply layout
         let collectionView = UICollectionView(frame: .zero ,collectionViewLayout: layout)
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         
-    
         return collectionView
     }()
     
@@ -40,7 +39,6 @@ class CollectionViewTableViewCell: UITableViewCell {
         collectionView.delegate = self
         
     }
-    
     
     
     required init?(coder: NSCoder) {
@@ -62,7 +60,7 @@ extension CollectionViewTableViewCell : UICollectionViewDataSource , UICollectio
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        10
+        return 10
     }
     
 }
