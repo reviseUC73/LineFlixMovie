@@ -13,10 +13,10 @@ class HomeViewController: UIViewController {
     
     // same callback func in js
     private let homeFeedTable: UITableView = {
-            let table = UITableView(frame: .zero, style: .grouped)
+        let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifiner)
-            return table
-        }()
+        return table
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,9 @@ class HomeViewController: UIViewController {
         homeFeedTable.delegate  = self
         homeFeedTable.dataSource = self
         configureNavbar()
-
+        getTrendingMovie() 
+        
+        
         let headerView = HeroHearderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 500))
         homeFeedTable.tableHeaderView = headerView
     }
@@ -39,17 +41,22 @@ class HomeViewController: UIViewController {
     
     
     private func configureNavbar() {
-//          var image = UIImage(named: "iconlogo")
-//          image = image?.withRenderingMode(.alwaysOriginal)
-//        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
-          
-          navigationItem.rightBarButtonItems = [
-              UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
-              UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
-          ]
-          navigationController?.navigationBar.tintColor = .white
-      }
+        //          var image = UIImage(named: "iconlogo")
+        //          image = image?.withRenderingMode(.alwaysOriginal)
+        //        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
+        
+        navigationItem.rightBarButtonItems = [
+            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
+            UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
+        ]
+        navigationController?.navigationBar.tintColor = .white
+    }
     
+    private func getTrendingMovie(){
+        APICaller.shared.getTrendingMovies { _  in
+            
+        }
+    }
 }
 
 // Note : see extension in swift
@@ -96,11 +103,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     //fix pos navbar
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-          let spaceSafeAreaTop = view.safeAreaInsets.top
-          let offset = scrollView.contentOffset.y + spaceSafeAreaTop
-          
-          navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
-      }
+         let defaultOffset = view.safeAreaInsets.top
+         let offset = scrollView.contentOffset.y + defaultOffset
+         
+         navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
+     }
+     
     
     
     
