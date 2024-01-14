@@ -79,6 +79,10 @@
 		42AC0D4F2B531CF100B51FC9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				42AC0D532B531D7800B51FC9 /* HomeViewController.swift */,
+				42AC0D552B531DA300B51FC9 /* UpcommingViewController.swift */,
+				42AC0D572B531DED00B51FC9 /* SearchViewController.swift */,
+				42AC0D592B531E0300B51FC9 /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -86,10 +90,6 @@
 		42AC0D502B531D0100B51FC9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				42AC0D532B531D7800B51FC9 /* HomeViewController.swift */,
-				42AC0D552B531DA300B51FC9 /* UpcommingViewController.swift */,
-				42AC0D572B531DED00B51FC9 /* SearchViewController.swift */,
-				42AC0D592B531E0300B51FC9 /* DownloadsViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
