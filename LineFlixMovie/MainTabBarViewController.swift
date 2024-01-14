@@ -36,7 +36,7 @@ class MainTabBarViewController: UITabBarController {
         tabBar.tintColor = .systemTeal
         
         // display in the tab bar interface
-        setViewControllers([vc1, vc2, vc3,vc4],animated: true)
+        setViewControllers([vc1, vc2, ],animated: true)
     }
     
 

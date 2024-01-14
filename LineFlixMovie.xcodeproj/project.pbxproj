@@ -20,6 +20,8 @@
 		42AC0D5E2B53FE4F00B51FC9 /* HeroHearderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC0D5D2B53FE4F00B51FC9 /* HeroHearderUIView.swift */; };
 		42E4D2AF2B54362600F6FD8E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E4D2AE2B54362600F6FD8E /* API.swift */; };
 		42E4D2B12B5448C800F6FD8E /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E4D2B02B5448C800F6FD8E /* MovieModel.swift */; };
+		42E4D2B32B544B7D00F6FD8E /* TvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E4D2B22B544B7D00F6FD8E /* TvModel.swift */; };
+		42E4D2B52B544D7900F6FD8E /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E4D2B42B544D7900F6FD8E /* TitleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		42AC0D5D2B53FE4F00B51FC9 /* HeroHearderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHearderUIView.swift; sourceTree = "<group>"; };
 		42E4D2AE2B54362600F6FD8E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		42E4D2B02B5448C800F6FD8E /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		42E4D2B22B544B7D00F6FD8E /* TvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvModel.swift; sourceTree = "<group>"; };
+		42E4D2B42B544D7900F6FD8E /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				42E4D2B02B5448C800F6FD8E /* MovieModel.swift */,
+				42E4D2B22B544B7D00F6FD8E /* TvModel.swift */,
+				42E4D2B42B544D7900F6FD8E /* TitleModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,12 +209,14 @@
 				42AC0D402B53143700B51FC9 /* MainTabBarViewController.swift in Sources */,
 				42AC0D5C2B53EADE00B51FC9 /* CollectionViewTableViewCell.swift in Sources */,
 				42AC0D5E2B53FE4F00B51FC9 /* HeroHearderUIView.swift in Sources */,
+				42E4D2B32B544B7D00F6FD8E /* TvModel.swift in Sources */,
 				42E4D2AF2B54362600F6FD8E /* API.swift in Sources */,
 				42AC0D5A2B531E0300B51FC9 /* DownloadsViewController.swift in Sources */,
 				42AC0D3C2B53143700B51FC9 /* AppDelegate.swift in Sources */,
 				42AC0D562B531DA300B51FC9 /* UpcommingViewController.swift in Sources */,
 				42AC0D3E2B53143700B51FC9 /* SceneDelegate.swift in Sources */,
 				42AC0D542B531D7800B51FC9 /* HomeViewController.swift in Sources */,
+				42E4D2B52B544D7900F6FD8E /* TitleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

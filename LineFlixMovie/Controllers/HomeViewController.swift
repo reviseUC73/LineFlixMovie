@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
         homeFeedTable.delegate  = self
         homeFeedTable.dataSource = self
         configureNavbar()
-        getTrendingMovie() 
+        getTrendingMovies()
         
         
         let headerView = HeroHearderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 500))
@@ -52,11 +52,19 @@ class HomeViewController: UIViewController {
         navigationController?.navigationBar.tintColor = .white
     }
     
-    private func getTrendingMovie(){
-        APICaller.shared.getTrendingMovies { _  in
-            
-        }
-    }
+    private func getTrendingMovies() {
+
+           APICaller.shared.getTrendingMovies { results in
+               switch results {
+
+               case .success(let movies):
+                   print(movies)
+               case .failure(let error):
+                   print(error)
+
+               }
+           }
+       }
 }
 
 // Note : see extension in swift
