@@ -32,6 +32,9 @@ class MainTabBarViewController: UITabBarController {
         vc3.title = "Top Search"
         vc4.title = "Downloads"
         
+        // set color selection in navbar
+        tabBar.tintColor = .systemTeal
+        
         // display in the tab bar interface
         setViewControllers([vc1, vc2, vc3,vc4],animated: true)
     }
