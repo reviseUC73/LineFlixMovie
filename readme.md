@@ -13,7 +13,7 @@ Welcome to **LineFlixMovie**, an innovative application platform designed to enh
 
 ## Technologies Used
 
-The MovieApp is built using the following technologies:
+The LineFlixMovie is built using the following technologies:
 
 - **Swift:** The programming language used to develop the iOS application.
 - **UIKit Framework:** The iOS framework that provides the core components and functionalities for building the user interface.
