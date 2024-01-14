@@ -3,6 +3,14 @@
 ## Introduction
 Welcome to **LineFlixMovie**, an innovative application platform designed to enhance your movie-watching experience. Developed using Swift and UIKit, LineFlixMovie offers a seamless and user-friendly interface for movie enthusiasts. Leveraging the robust The Movie Database (TMDB) API, we bring a vast collection of movies to your fingertips.
 
+<table>
+<tr>
+  <td><img src="./LineFlixMoviePicture/1.png" alt="Home" width="300"/> </td>
+  <td><img src="./LineFlixMoviePicture/2.png" alt="ComingSoon" width="300"/> </td>
+
+  </tr>
+<table>
+
 ## Technologies Used
 
 The MovieApp is built using the following technologies:
@@ -22,13 +30,4 @@ To access TMDB's content, a valid API key is required. Here's a brief guide:
    ```swift
    static let API_KEY = "your_api_key_here"
 ```
-```
 
-## Picture 
-<table>
-<tr>
-  <td><img src="./LineFlixMoviePicture/1.png" alt="Home" width="300"/> </td>
-  <td><img src="./LineFlixMoviePicture/2.png" alt="ComingSoon" width="300"/> </td>
-
-  </tr>
-<table>
